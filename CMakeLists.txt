@@ -27,4 +27,9 @@ install(DIRECTORY launch
   DESTINATION share/${PROJECT_NAME}
 )
 
+install(PROGRAMS scripts/joint_mover.py
+  DESTINATION lib/${PROJECT_NAME}
+  RENAME joint_mover
+)
+
 ament_package()
