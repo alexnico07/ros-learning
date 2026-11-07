@@ -6,6 +6,14 @@ My ROS 2 learning projects, following the Articulated Robotics tutorials. Setup:
 
 - `my_package`: talker/listener nodes and launch files.
 
+## Demo
+
+The `joint_mover` node drives the simulated robot from the urdf_example Harmonic port.
+
+| Gazebo | RViz2 |
+|---|---|
+| ![Gazebo demo](docs/gazebo_demo.gif) | ![RViz2 demo](docs/rviz_demo.gif) |
+
 ## Related
 
 - [urdf_example (Gazebo Harmonic port)](https://github.com/alexnico07/urdf_example/tree/jazzy-gz): my fork of [joshnewans/urdf_example](https://github.com/joshnewans/urdf_example), ported from Gazebo Classic to Gazebo Harmonic. See `PORT_NOTES.md` in that repo for what I changed and why.
